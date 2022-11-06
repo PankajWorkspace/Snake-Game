@@ -1,0 +1,64 @@
+.center {
+    text-align: center;
+    /* justify-content: center; */
+    text-transform: capitalize;
+}
+
+.score {
+    text-align: center;
+    margin-top: 30px;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+/* 
+#highscore {
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    text-transform: capitalize;
+} */
+
+.game {
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-left: 530px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid red;
+    width: 200px;
+    height: 200px;
+}
+
+.game div {
+    width: 10px;
+    height: 10px;
+}
+
+.snake {
+    background-color: black;
+    /* text-align: center; */
+    /* margin-left: 50px; */
+}
+
+.apple {
+    background-color: green;
+    border-radius: 10px;
+    /* display: block; */
+    /* visibility: hidden; */
+}
+
+.alert {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.control {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    /* margin-left: 645px; */
+}
